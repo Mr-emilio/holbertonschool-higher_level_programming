@@ -7,6 +7,6 @@ class Square:
     attributes
     size: type int, side of the square
     """
-    def _init_(self, size):
+    def __init__(self, size):
         """instantiation of an square"""
         self.__size = size
