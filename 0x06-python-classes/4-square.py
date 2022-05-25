@@ -19,7 +19,7 @@ class Square:
     @size.setter
     def size(self, value):
         """attributes size"""
-        if type(size) == int:
+        if type(value) == int:
             if value >= 0:
                 self.__size = value
             else:
