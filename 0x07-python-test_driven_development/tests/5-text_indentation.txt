@@ -1,2 +1,22 @@
-s
+""" Test the function text_indentation """
 
+""" impor function """
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("Pablo Emilio")
+Pablo Emilio
+
+>>> text_indentation("Pablo.Emilio")
+Pablo.
+<BLANKLINE>
+Emilio
+
+>>> text_indentation(8)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation()
+Traceback (most recent call last):
+...
+TypeError: text_indentation() missing 1 required positional argument: 'text'
