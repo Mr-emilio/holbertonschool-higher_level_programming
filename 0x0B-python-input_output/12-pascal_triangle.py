@@ -8,10 +8,11 @@ def pascal_triangle(n):
     triangle = []
     tmp = []
     row = []
-    prev = -1
-    current = 0
 
     for i in range(n):
+        row = []
+        prev = -1
+        current = 0
         for j in range(len(tmp) +1):
             if prev == -1 or current == len(tmp):
                 row.append(1)
