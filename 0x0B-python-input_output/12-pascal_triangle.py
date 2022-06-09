@@ -13,7 +13,7 @@ def pascal_triangle(n):
         row = []
         prev = -1
         current = 0
-        for j in range(len(tmp) +1):
+        for j in range(len(tmp) + 1):
             if prev == -1 or current == len(tmp):
                 row.append(1)
             else:
