@@ -97,4 +97,3 @@ class Base:
             for obj in my_json_lists:
                 my_lists.append(cls.create(**obj))
         return my_lists
-
